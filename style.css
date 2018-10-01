@@ -1,0 +1,77 @@
+
+h1{
+	text-align: center;
+}
+
+.flex-container{
+
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: : center;
+	height: 500px;
+	
+}
+
+.one{
+	width: 250px;
+	height: 250px;
+	margin: auto;
+	
+	background-color: transparent;
+	transition: background 2s;
+
+
+}
+
+.one:hover{
+	background-color: darkgreen;
+}
+
+
+
+
+.two {
+	width: 250px;
+	height: 250px;
+	margin: auto;
+	
+	background-color: transparent;
+	transition: background 2s;
+}
+
+
+.two:hover{
+	background-color: lightblue;
+}
+
+.three {
+	width: 250px;
+	height: 250px;
+	margin: auto;
+
+	background-color: transparent;
+	transition: background 2s;
+
+
+}
+
+.three:hover{
+	background-color: orange;
+}
+
+.flex-container {
+	background: linear-gradient(270deg, #00c5ff, #f9ff00, #a300ff, #cbff8e, #ffb78e, #ff0020, #45ff00, #0011ff, #ff8900, #ff00d4, #00ffbe, #159600);
+background-size: 1600% 1600%;
+
+animation: gradient 16s ease infinite;}
+
+
+@keyframes gradient { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+
